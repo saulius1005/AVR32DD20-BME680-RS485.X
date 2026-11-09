@@ -92,9 +92,15 @@ All parameters except the MCU supply voltage are then sent to Weather Station v2
 
 ## RS485 Data Frame
 
-Because this is currently only a prototype and there is only one device on this RS485 line, no device ID is used.
+Weather Station v2.0 sends a request in the format **{AA}CRLF**
 
-However, each data frame still ends with a CRC-8/CDMA2000 checksum.
+* where **`AA`** represents the target module ID.
+
+The Sensor Board has a predefined ID of `char Device_ID[2] = "01";` in `RS485Var.h`. When it receives a request starts collecting sensor data.
+
+After collecting the data, the Sensor Board sends the sensor readings back to Weather Station v2.0 over the RS485 channel.
+
+Each data frame ends with a CRC-8/CDMA2000 checksum (except data request).
 
 The data frame starts and ends with `[` and `]`.
 
