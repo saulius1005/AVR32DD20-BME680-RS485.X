@@ -183,6 +183,7 @@
         <property key="remove-unused-sections" value="true"/>
       </HI-TECH-LINK>
       <PK5Tool>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3fff"/>
         <property key="programmerToGoFilePath"
                   value="C:/Users/Saulius/MPLABXProjects/AVR32DD20-BME680-RS485.X/debug/default/AVR32DD20-BME680-RS485_ptg"/>

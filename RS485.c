@@ -33,12 +33,7 @@ void RS485_RX(){
 	static uint8_t start = 0;
 
     char c = USART0_readChar(); // Reading a character from USART
-    
-    if (c == '{') { // If received cmd start symbol
-        start = 1;
-        index = 0;
-        RX_LED_ON();
-    }    
+     
     if (start) {
         if (c == '}') { // If received cmd end symbol
             RX_LED_OFF();
@@ -50,12 +45,17 @@ void RS485_RX(){
             }				
         } 
         else if (index < RS485_CMD_LENGTH) {// fill aray
-            cmd[index++] = c; // Store received character in command array
+                cmd[index++] = c; // Store received character in command array
         }
         else{ //if array full start from beginning
             index = 0;
             start = 0;
         }
     }
+    if (c == '{') { // If received cmd start symbol
+        start = 1;
+        index = 0;
+        RX_LED_ON();
+    }      
 
 }
