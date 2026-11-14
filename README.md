@@ -27,9 +27,10 @@ This board is part of a dual-axis solar tracking system and is used as part of t
 
 ## BME680
 
-<img width="640" height="480" alt="Ekrano kopija 2026-10-24 222719" src="https://github.com/user-attachments/assets/aed02029-273f-4ad1-9266-f0bbbadd3a17" />
+<img width="640" height="360" alt="IMG_20261112_141707_545" src="https://github.com/user-attachments/assets/dafd1878-e193-44e6-b0c8-5c7f6a86bc3e" />
 
-<img width="640" height="480" alt="Ekrano kopija 2026-10-24 222733" src="https://github.com/user-attachments/assets/cc1cc25d-c1ed-423d-bbf2-adf8f9c8ef77" />
+<img width="640" height="360" alt="IMG_20261112_141816_775" src="https://github.com/user-attachments/assets/f12f7e7c-eee6-493b-bcbd-09ffc6354982" />
+
 
 ### Wiring Diagram
 
