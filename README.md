@@ -13,7 +13,8 @@ This board is part of a dual-axis solar tracking system and is used as part of t
 
 ## Wiring Diagram
 
-<img width="640" height="480" alt="wiring first prototype" src="https://github.com/user-attachments/assets/2923808b-386a-418c-9489-e8185d746f97" />
+<img width="640" height="480" alt="AVR32DD20_SESORS_CONTROLLER_WEATHER_STATION" src="https://github.com/user-attachments/assets/4513ae1b-b3e1-454c-95ef-a20786ac3c0b" />
+
 
 ### Main Components
 
